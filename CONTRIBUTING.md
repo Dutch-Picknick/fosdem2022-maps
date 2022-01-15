@@ -6,10 +6,6 @@ The following is a set of guidelines for contributing to FOSDEM2022-MAPS and its
 
 #### Table Of Contents
 
-[Code of Conduct](#code-of-conduct)
-
-[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
-
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
   * [Workadventure and maps](#workadventure-and-maps)
   * [Using tilesets](#using-tilesets)
@@ -22,9 +18,11 @@ The following is a set of guidelines for contributing to FOSDEM2022-MAPS and its
 
 ### Workadventure and maps
 
-Make yourself familiar with 
 Make yourself familiar with [WorkAdventure maps](https://workadventu.re/map-building/wa-maps.md)
 
+Place a map and tilesets in a subdirectory.
+
+**Lobby** is our main map
 
 ### Using tilesets
 
@@ -33,3 +31,11 @@ Keep in mind the size of tiles and do not forget to check the license of the til
 ### layers upon layers
 
 We use layers to stack different types of tiles, floors, wall, items. 
+
+## How can i contribute
+
+The fosdem maps are a set of maps, u can
+* suggest a new map
+* ask to add  features to an existing map 
+* create a pull request for a map
+* ask be a maintainer
