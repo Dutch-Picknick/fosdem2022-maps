@@ -9,7 +9,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":102,
          "x":0,
          "y":0
@@ -27,7 +27,7 @@
                  "value":"lobby"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":102,
          "x":0,
          "y":0
@@ -39,7 +39,7 @@
          "name":"grass",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
@@ -51,7 +51,7 @@
          "name":"roads and floors",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
@@ -69,7 +69,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
@@ -81,7 +81,7 @@
          "name":"furniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
@@ -93,7 +93,7 @@
          "name":"items",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
@@ -105,7 +105,7 @@
          "name":"items2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
