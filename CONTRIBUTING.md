@@ -1,4 +1,4 @@
-# Contributing to fosdem-2022-maps
+# Contributing to fosdem2022-maps
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
