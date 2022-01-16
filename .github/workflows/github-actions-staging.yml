@@ -22,7 +22,7 @@ jobs:
 
   deploy:
     needs: [checkout]
-    runs-on: [self-hosted,0b1010101]
+    runs-on: [self-hosted,0b101010]
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: List files in the repository
