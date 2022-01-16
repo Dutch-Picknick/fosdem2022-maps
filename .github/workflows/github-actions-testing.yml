@@ -1,8 +1,8 @@
-name: Staging main
+name: Testing all but main
 on:
   push:
     branches:
-      - !main
+      - '!main'
 
 jobs:
   checkout:
