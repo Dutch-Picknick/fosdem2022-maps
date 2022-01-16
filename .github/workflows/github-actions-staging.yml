@@ -25,11 +25,11 @@ jobs:
     runs-on: [self-hosted,0b101010]
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-        run: | 
+      - run: | 
           echo "🔎 check if staging dir is present and writable"
           touch /srv/maps/staging/staging.$$ || exit 1
       - name: Deploy files to staging
-        run: |
+      - run: |
           [ !-d /srv/maps/staging ] && exit 1
           rm -rf /srv/maps/staging/*
           cp -r  ${{ github.workspace }}/* /srv/maps/staging
