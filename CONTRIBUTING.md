@@ -39,3 +39,9 @@ The fosdem maps are a set of maps, u can
 * ask to add  features to an existing map 
 * create a pull request for a map
 * ask be a maintainer
+
+Develop new maps in a feature branch, these will be pushed to testing.
+Features are be joined with main and pushed to staging.
+
+/_/global/maps.0b101010.it/staging/<mapname >.json
+/_/global/maps.0b101010.it/testing/<branch name>/<map name>.json
