@@ -30,3 +30,4 @@ jobs:
       - run: rm -rf /srv/maps/staging/*
       - run: cp -r  ${{ github.workspace }}/* /srv/maps/staging
       - run: echo "🍏 This job's status is ${{ job.status }}"
+      - run: echo "🎉 site deployed https://play.0b101010.it/_/global/maps.0b101010.it/staging/lobby/lobby.json"
