@@ -1,8 +1,8 @@
 name: Testing all but main
 on:
   push:
-    branches:
-      - '!main'
+    branches-ignore:
+      - main
 
 jobs:
   checkout:
