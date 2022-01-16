@@ -45,3 +45,11 @@ Features are be joined with main and pushed to staging
 
 /_/global/maps.0b101010.it/staging/<mapname >.json
 /_/global/maps.0b101010.it/testing/<branch name>/<map name>.json
+
+### Keeping features in sync
+
+Use the following to pull in changes from main in your feature branch
+
+* git fetch
+* git merge origin/master
+* git push
