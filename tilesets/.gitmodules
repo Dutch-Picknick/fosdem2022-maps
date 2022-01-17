@@ -1,13 +1,12 @@
-[submodule "community/bytewerk"]
-	path = community/bytewerk
-	url = https://github.com/cijavel/tileset_Bytewerk.git
-	branch = main
-[submodule "community/kalkspace"]
-	path = community/kalkspace
-	url = https://github.com/kalkspace/pixel.git
-[submodule "community/cert"]
-	path = community/cert
+[submodule "tilesets/community/c3sign"]
+	path = tilesets/community/c3sign
 	url = https://github.com/c3CERT/rc3_tiles.git
-[submodule "community/c3sign"]
-	path = community/c3sign
-	url = https://git.cccv.de/signs/rc3maptiles
+[submodule "tilesets/community/cert"]
+	path = tilesets/community/cert
+	url = https://github.com/c3CERT/rc3_tiles.git
+[submodule "tilesets/community/kalkspace"]
+	path = tilesets/community/kalkspace
+	url = https://github.com/kalkspace/pixel.git
+[submodule "tilesets/community/bytewerk"]
+	path = tilesets/community/bytewerk
+	url = https://github.com/cijavel/tileset_Bytewerk.git
