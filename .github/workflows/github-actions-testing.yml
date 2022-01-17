@@ -33,4 +33,4 @@ jobs:
       - run: rm -rf /srv/maps/testing/${GITHUB_REF##*/}/*
       - run: cp -r  ${{ github.workspace }}/* /srv/maps/testing/${GITHUB_REF##*/}
       - run: echo "🍏 This job's status is ${{ job.status }}"
-      - run: echo "🎉 site deployed https://play.0b101010.it/_/global/maps.0b101010.it/testing/${GITHUB_REF##*/}/lobby/lobby.json"
+      - run: echo "🎉 site deployed https://play.0b101010.it/_/global/maps.0b101010.it/testing/${GITHUB_REF##*/}/lobby/main.json"
