@@ -15,7 +15,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
@@ -28,7 +28,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitURL",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"..\/lobby\/main.json"
                 }],
@@ -45,7 +45,7 @@
          "name":"grass",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
@@ -57,7 +57,7 @@
          "name":"roads and floors",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":102,
          "x":0,
          "y":0
