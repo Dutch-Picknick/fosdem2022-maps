@@ -27,7 +27,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"..\/jason\/main.json"
+                         "value":"https:\/\/play.0b101010.it\/_\/global\/maps.0b101010.it\/staging\/jason\/main.json"
                         }],
                  "type":"tilelayer",
                  "visible":true,
