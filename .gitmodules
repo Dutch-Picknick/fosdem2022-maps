@@ -7,3 +7,6 @@
 [submodule "tilesets/community/cert"]
 	path = tilesets/community/cert
 	url = https://github.com/c3CERT/rc3_tiles.git
+[submodule "tilesets/community/rc3"]
+	path = tilesets/community/rc3
+	url = https://git.cccv.de/rc3/world-tiles
