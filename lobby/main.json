@@ -20,7 +20,7 @@
                         {
                          "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                         "value":"autoplay"
                         }],
                  "type":"tilelayer",
                  "visible":true,
