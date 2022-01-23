@@ -241,7 +241,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/news.ycombinator.com\/news"
+                         "value":"news.ycombinator.com\/news"
                         }],
                  "rotation":0,
                  "type":"website",
