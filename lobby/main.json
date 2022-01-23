@@ -224,7 +224,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/fosdem.org\/2022\/"
+                         "value":"lobby.html"
                         }],
                  "rotation":0,
                  "type":"website",
