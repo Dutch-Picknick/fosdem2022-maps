@@ -217,7 +217,7 @@
          "name":"website",
          "objects":[
                 {
-                 "height":712.363636363637,
+                 "height":284.606060606061,
                  "id":1,
                  "name":"fosdem",
                  "properties":[
@@ -229,9 +229,26 @@
                  "rotation":0,
                  "type":"website",
                  "visible":true,
-                 "width":939.636363636364,
-                 "x":163.272727272728,
-                 "y":1902.06060606061
+                 "width":685.090909090909,
+                 "x":1257.21212121212,
+                 "y":1762.66666666667
+                }, 
+                {
+                 "height":284.606,
+                 "id":2,
+                 "name":"hackernews",
+                 "properties":[
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"https:\/\/news.ycombinator.com\/news"
+                        }],
+                 "rotation":0,
+                 "type":"website",
+                 "visible":true,
+                 "width":685.091,
+                 "x":533.4545,
+                 "y":1765.697
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -251,7 +268,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":2,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
