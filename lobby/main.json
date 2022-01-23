@@ -219,7 +219,7 @@
                 {
                  "height":712.363636363637,
                  "id":1,
-                 "name":"",
+                 "name":"fosdem",
                  "properties":[
                         {
                          "name":"url",
@@ -227,7 +227,7 @@
                          "value":"https:\/\/fosdem.org\/2022\/"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"website",
                  "visible":true,
                  "width":939.636363636364,
                  "x":163.272727272728,
