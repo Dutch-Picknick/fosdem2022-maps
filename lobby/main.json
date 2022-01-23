@@ -217,7 +217,7 @@
          "name":"website",
          "objects":[
                 {
-                 "height":314.666666666667,
+                 "height":712.363636363637,
                  "id":1,
                  "name":"",
                  "properties":[
@@ -229,13 +229,13 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":488,
-                 "x":516,
-                 "y":1828
+                 "width":939.636363636364,
+                 "x":163.272727272728,
+                 "y":1902.06060606061
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
