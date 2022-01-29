@@ -132,6 +132,11 @@
                  "opacity":1,
                  "properties":[
                         {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"a30413a5-965f-4ecf-a59b-47c4c81bfe75\n\n"
+                        }, 
+                        {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/live.fosdem.org\/watch\/kfosdem"
