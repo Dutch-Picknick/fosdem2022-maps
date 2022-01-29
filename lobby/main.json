@@ -95,6 +95,11 @@
                          "name":"jitsiTriggerMessage",
                          "type":"string",
                          "value":"press space to enter developerroom"
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/cryptpad.fr\/code\/#\/2\/code\/edit\/v42OLX+4qHzwHie+fDOC7EaQ\/"
                         }],
                  "type":"tilelayer",
                  "visible":true,
