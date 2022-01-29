@@ -139,12 +139,12 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/live.fosdem.org\/watch\/kfosdem"
+                         "value":"https:\/\/open.spotify.com\/embed\/track\/3r9mYXFYhlA8Z84hdY00MQ?utm_source=generator"
                         }, 
                         {
                          "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"fullscreen"
+                         "value":"fullscreen;"
                         }],
                  "type":"tilelayer",
                  "visible":true,
