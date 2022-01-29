@@ -158,6 +158,12 @@
                  "id":17,
                  "name":"fosdem-infodesk",
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/fosdem.org\/2022\/schedule\/roomtracks\/"
+                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":102,
