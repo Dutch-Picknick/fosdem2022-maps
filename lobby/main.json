@@ -134,7 +134,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/stream.fosdem.org\/kfosdem.m3u8"
+                         "value":"https:\/\/live.fosdem.org\/watch\/kfosdem"
                         }, 
                         {
                          "name":"openWebsitePolicy",
