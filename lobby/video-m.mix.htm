@@ -28,7 +28,7 @@
             // var video = videojs('fosdemvideo');
             // player.setAttribute("src", vids[n]);
             // player.setAttribute("type", 'video/mp4');
-            player.src({ type: 'video/mp4', src: vids[n] });
+            player.src({ type: 'application/x-mpegURL', src: vids[n] });
             console.log("loading "+vids[n]);
             player.load();
             player.play();
