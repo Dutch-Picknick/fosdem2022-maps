@@ -162,7 +162,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"video-m.mix.htm"
+                         "value":"play-m.mix.htm"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -386,7 +386,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"play-m.mix.htm"
+                         "value":"video-m.mix.htm"
                         }],
                  "rotation":0,
                  "type":"website",
