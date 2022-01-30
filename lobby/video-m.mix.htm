@@ -10,14 +10,11 @@
     <script>
         var vids = ["https://stream.fosdem.org/mcommunity.m3u8",
             "https://stream.fosdem.org/mmisc.m3u8",
-            ,"https://www.youtube.com/watch?v=kkGeOWYOFoA"
+            "https://www.youtube.com/watch?v=kkGeOWYOFoA"
         ];
   </script>
-
   </head>
- 
   <body>
-
     <button onclick="changeVid(0)">M.community</button>
     <button onclick="changeVid(1)">M.misc</button>
     <button onclick="changeVid(2)">play 2 (youtube)</button>
@@ -28,7 +25,7 @@
         <!-- Tracks need an ending tag thanks to IE9 -->
         <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
       </video>
-<script>
+    <script>
         var player = videojs('fosdemvideo', {
             autoplay: 'muted'
         });
@@ -40,7 +37,6 @@
             player.load();
             player.play();
         };
-  </script>
-
+    </script>
   </body>
-  </html>
+ </html>
