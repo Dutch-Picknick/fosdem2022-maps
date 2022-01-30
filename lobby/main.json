@@ -157,7 +157,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/fosdem.org\/2022\/schedule\/room\/mmisc\/"
+                         "value":"M.misc.htm"
                         }],
                  "type":"tilelayer",
                  "visible":true,
