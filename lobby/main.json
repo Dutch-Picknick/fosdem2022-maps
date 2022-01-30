@@ -157,7 +157,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"M.misc.htm"
+                         "value":"video-m.mix.htm"
                         }],
                  "type":"tilelayer",
                  "visible":true,
