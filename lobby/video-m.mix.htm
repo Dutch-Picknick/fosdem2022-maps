@@ -1,40 +1,26 @@
-<script>
-vPlayer = videojs('my_video', {
-  techOrder: ["html5", "youtube"],
-  autoplay: false,
-  sources: [{
-    type: "video/mp4",
-    src: "https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-  }]
-});
-vPlayer.on('playing', function(e) {
-  $("#info").html("playing...<br>url: " + vPlayer.currentSrc() + "<br>type:" + vPlayer.currentType());
-});
-
-var vids = [{
-    type: "video/mp4",
-    src: "https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-  },
-  {
-    type: "video/mp4",
-    src: "https://vjs.zencdn.net/v/oceans.mp4"
-  },
-  {
-    type: "video/youtube",
-    src: "https://www.youtube.com/watch?v=kkGeOWYOFoA"
-  }
-];
-
-playVideo = function(n) {
-  vPlayer.src(vids[n]);
-  vPlayer.play();
-}
-</script>
-<video id="my_video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="400">
-</video>
-<hr>
-<button onclick="playVideo(0)">play 0 (mp4)</button>
-<button onclick="playVideo(1)">play 1 (mp4)</button>
-<button onclick="playVideo(2)">play 2 (youtube)</button>
-<hr>
-<div id="info"></div>
+<head>
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+  
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+  </head>
+  
+  <body>
+    <video
+      id="my-video"
+      class="video-js"
+      controls
+      preload="auto"
+      width="640"
+      height="264"
+      poster="MY_VIDEO_POSTER.jpg"
+      data-setup="{}"
+    </video>
+    <hr>
+    <button onclick="playVideo(0)">play 0 (mp4)</button>
+    <button onclick="playVideo(1)">play 1 (mp4)</button>
+    <button onclick="playVideo(2)">play 2 (youtube)</button>
+    <hr>
+  
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+  </body>
