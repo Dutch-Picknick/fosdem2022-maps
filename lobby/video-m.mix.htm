@@ -9,10 +9,6 @@
     <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.1/Youtube.min.js"></script>
     <script>
-        var vids = ["https://stream.fosdem.org/mcommunity.m3u8",
-            "https://stream.fosdem.org/mmisc.m3u8",
-            "https://www.youtube.com/watch?v=kkGeOWYOFoA"
-        ];
         var video_streams = [
         {
             src: 'https://stream.fosdem.org/mcommunity.m3u8',
@@ -48,9 +44,6 @@
             fluid: true
         });
         function changeVid(n){
-            // var video = videojs('fosdemvideo');
-            // player.setAttribute("src", vids[n]);
-            // player.setAttribute("type", 'video/mp4');
             player.src({ type: video_streams[n]['type'], src: video_streams[n]['src'] });
             console.log("loading "+video_streams[n]['src']);
             player.load();
