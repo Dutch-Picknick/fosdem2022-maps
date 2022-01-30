@@ -18,13 +18,8 @@
     <button onclick="changeVid(0)">M.community</button>
     <button onclick="changeVid(1)">M.misc</button>
     <button onclick="changeVid(2)">play 2 (youtube)</button>
-    <video id="fosdemvideo" class="video-js vjs-default-skin" controls preload="none" width="640" height="264" poster="http://vjs.zencdn.net/v/oceans.png" data-setup="{}">
-        <track kind="captions" src="../shared/example-captions.vtt" srclang="en" label="English"></track>
-        <!-- Tracks need an ending tag thanks to IE9 -->
-        <track kind="subtitles" src="../shared/example-captions.vtt" srclang="en" label="English"></track>
-        <!-- Tracks need an ending tag thanks to IE9 -->
-        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-      </video>
+    <video id="fosdemvideo" class="video-js vjs-default-skin">
+    </video>
     <script>
         var player = videojs('fosdemvideo', {
             autoplay: 'muted'
