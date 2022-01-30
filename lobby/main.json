@@ -379,6 +379,11 @@
                  "name":"",
                  "properties":[
                         {
+                         "name":"allowApi",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
                          "name":"url",
                          "type":"string",
                          "value":"play-m.mix.htm"
