@@ -7,6 +7,7 @@
     <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
     <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
     <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.1/Youtube.min.js"></script>
     <script>
         var vids = ["https://stream.fosdem.org/mcommunity.m3u8",
             "https://stream.fosdem.org/mmisc.m3u8",
@@ -33,7 +34,13 @@
     <button onclick="changeVid(0)">M.community</button>
     <button onclick="changeVid(1)">M.misc</button>
     <button onclick="changeVid(2)">play 2 (youtube)</button>
-    <video id="fosdemvideo" class="video-js vjs-default-skin">
+    <video 
+        id="fosdemvideo" 
+        class="video-js vjs-default-skin"
+        controls
+        fluid: true
+        data-setup='{"youtube": { "iv_load_policy": 1 } }'
+    >
     </video>
     <script>
         var player = videojs('fosdemvideo', {
