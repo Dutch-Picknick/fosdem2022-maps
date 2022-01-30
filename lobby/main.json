@@ -381,7 +381,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"video-m.mix.htm"
+                         "value":"play-m.mix.htm"
                         }],
                  "rotation":0,
                  "type":"website",
