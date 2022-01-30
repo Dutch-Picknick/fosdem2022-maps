@@ -1,29 +1,40 @@
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<!-- Or if you want a more recent alpha version -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@alpha"></script> -->
-<video id="video"></video>
 <script>
-  var video = document.getElementById('video');
-  var videoSrc = 'https://stream.fosdem.org/mcommunity.m3u8';
-  if (Hls.isSupported()) {
-    var hls = new Hls();
-    hls.loadSource(videoSrc);
-    hls.attachMedia(video);
+vPlayer = videojs('my_video', {
+  techOrder: ["html5", "youtube"],
+  autoplay: false,
+  sources: [{
+    type: "video/mp4",
+    src: "https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+  }]
+});
+vPlayer.on('playing', function(e) {
+  $("#info").html("playing...<br>url: " + vPlayer.currentSrc() + "<br>type:" + vPlayer.currentType());
+});
+
+var vids = [{
+    type: "video/mp4",
+    src: "https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+  },
+  {
+    type: "video/mp4",
+    src: "https://vjs.zencdn.net/v/oceans.mp4"
+  },
+  {
+    type: "video/youtube",
+    src: "https://www.youtube.com/watch?v=kkGeOWYOFoA"
   }
-  // HLS.js is not supported on platforms that do not have Media Source
-  // Extensions (MSE) enabled.
-  //
-  // When the browser has built-in HLS support (check using `canPlayType`),
-  // we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video
-  // element through the `src` property. This is using the built-in support
-  // of the plain video element, without using HLS.js.
-  //
-  // Note: it would be more normal to wait on the 'canplay' event below however
-  // on Safari (where you are most likely to find built-in HLS support) the
-  // video.src URL must be on the user-driven white-list before a 'canplay'
-  // event will be emitted; the last video event that can be reliably
-  // listened-for when the URL is not on the white-list is 'loadedmetadata'.
-  else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    video.src = videoSrc;
-  }
+];
+
+playVideo = function(n) {
+  vPlayer.src(vids[n]);
+  vPlayer.play();
+}
 </script>
+<video id="my_video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="400">
+</video>
+<hr>
+<button onclick="playVideo(0)">play 0 (mp4)</button>
+<button onclick="playVideo(1)">play 1 (mp4)</button>
+<button onclick="playVideo(2)">play 2 (youtube)</button>
+<hr>
+<div id="info"></div>
