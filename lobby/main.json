@@ -5246,15 +5246,6 @@
                          "type":"bool",
                          "value":true
                         }]
-                }, 
-                {
-                 "id":625,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
                 }],
          "tilewidth":32
         }, 
