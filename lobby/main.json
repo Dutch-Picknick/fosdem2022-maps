@@ -901,6 +901,28 @@
                  "width":163,
                  "x":1951,
                  "y":1409
+                }, 
+                {
+                 "height":458,
+                 "id":39,
+                 "name":"janson",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":5
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":513,
+                 "x":3231.5,
+                 "y":128.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -944,7 +966,7 @@
          "y":0
         }],
  "nextlayerid":42,
- "nextobjectid":39,
+ "nextobjectid":40,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
