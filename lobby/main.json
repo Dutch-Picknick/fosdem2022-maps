@@ -573,7 +573,7 @@
         {
          "draworder":"topdown",
          "id":41,
-         "name":"Janson",
+         "name":"Janson-podium",
          "objects":[
                 {
                  "height":311.666666666667,
@@ -603,7 +603,7 @@
         {
          "draworder":"topdown",
          "id":22,
-         "name":"FocusDevroom",
+         "name":"Focuszones",
          "objects":[
                 {
                  "height":277.333333333333,
@@ -933,7 +933,7 @@
         {
          "draworder":"topdown",
          "id":23,
-         "name":"website",
+         "name":"M-podium",
          "objects":[
                 {
                  "height":388.727272727273,
