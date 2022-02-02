@@ -619,7 +619,7 @@
                 {
                  "height":0,
                  "id":4,
-                 "name":"",
+                 "name":"dev",
                  "properties":[
                         {
                          "name":"focusable",
@@ -637,6 +637,28 @@
                  "width":1.33333333333348,
                  "x":2230.66666666667,
                  "y":1832
+                }, 
+                {
+                 "height":104,
+                 "id":25,
+                 "name":"T1",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":5
+                        }],
+                 "rotation":0,
+                 "type":"zone",
+                 "visible":true,
+                 "width":136,
+                 "x":2206.66666666667,
+                 "y":1593.33333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -680,7 +702,7 @@
          "y":0
         }],
  "nextlayerid":42,
- "nextobjectid":25,
+ "nextobjectid":26,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
