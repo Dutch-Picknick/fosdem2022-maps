@@ -508,7 +508,7 @@
          "name":"Janson",
          "objects":[
                 {
-                 "height":299.666666666667,
+                 "height":269,
                  "id":23,
                  "name":"janson",
                  "properties":[
@@ -520,10 +520,12 @@
                  "rotation":0,
                  "type":"website",
                  "visible":true,
-                 "width":507,
-                 "x":3203.39393939394,
-                 "y":140.272727272727
+                 "width":467,
+                 "x":3224.72727272727,
+                 "y":176.272727272727
                 }],
+         "offsetx":9.33333333333303,
+         "offsety":-16,
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
