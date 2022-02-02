@@ -506,24 +506,7 @@
          "draworder":"topdown",
          "id":41,
          "name":"Janson",
-         "objects":[
-                {
-                 "height":258,
-                 "id":12,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"url",
-                         "type":"string",
-                         "value":"M.misc.htm"
-                        }],
-                 "rotation":0,
-                 "type":"website",
-                 "visible":true,
-                 "width":438,
-                 "x":3238,
-                 "y":148
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -600,7 +583,26 @@
                  "width":604,
                  "x":41.3636363636364,
                  "y":1113.36363636364
+                }, 
+                {
+                 "height":234,
+                 "id":17,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"video-j.mix.htm"
+                        }],
+                 "rotation":0,
+                 "type":"website",
+                 "visible":true,
+                 "width":436,
+                 "x":3226,
+                 "y":162
                 }],
+         "offsetx":10,
+         "offsety":2,
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -608,7 +610,7 @@
          "y":0
         }],
  "nextlayerid":42,
- "nextobjectid":15,
+ "nextobjectid":19,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
