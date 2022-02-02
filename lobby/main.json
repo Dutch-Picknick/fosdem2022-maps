@@ -506,7 +506,18 @@
          "draworder":"topdown",
          "id":41,
          "name":"Janson",
-         "objects":[],
+         "objects":[
+                {
+                 "height":258,
+                 "id":12,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":438,
+                 "x":3238,
+                 "y":148
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -591,7 +602,7 @@
          "y":0
         }],
  "nextlayerid":42,
- "nextobjectid":8,
+ "nextobjectid":15,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
