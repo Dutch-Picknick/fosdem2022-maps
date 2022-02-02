@@ -583,23 +583,6 @@
                  "width":604,
                  "x":41.3636363636364,
                  "y":1113.36363636364
-                }, 
-                {
-                 "height":234,
-                 "id":17,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"url",
-                         "type":"string",
-                         "value":"video-j.mix.htm"
-                        }],
-                 "rotation":0,
-                 "type":"website",
-                 "visible":true,
-                 "width":436,
-                 "x":3226,
-                 "y":162
                 }],
          "offsetx":10,
          "offsety":2,
