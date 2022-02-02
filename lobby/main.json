@@ -423,6 +423,8 @@
                  "height":100,
                  "id":29,
                  "name":"T1",
+                 "offsetx":5.33333333333394,
+                 "offsety":21.3333333333334,
                  "opacity":1,
                  "properties":[
                         {
@@ -574,7 +576,7 @@
          "name":"Janson",
          "objects":[
                 {
-                 "height":309,
+                 "height":298.333333333333,
                  "id":23,
                  "name":"janson",
                  "properties":[
@@ -586,12 +588,12 @@
                  "rotation":0,
                  "type":"website",
                  "visible":true,
-                 "width":467,
-                 "x":3239.39393939394,
-                 "y":146.939393939394
+                 "width":488.333333333333,
+                 "x":3230.06060606061,
+                 "y":157.606060606061
                 }],
-         "offsetx":9.33333333333303,
-         "offsety":-16,
+         "offsetx":4,
+         "offsety":-12,
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
