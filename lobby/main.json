@@ -508,18 +508,7 @@
          "name":"Janson",
          "objects":[
                 {
-                 "height":584.848484848485,
-                 "id":22,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":509.090909090909,
-                 "x":990.909090909091,
-                 "y":1160.60606060606
-                }, 
-                {
-                 "height":0,
+                 "height":280.666666666667,
                  "id":23,
                  "name":"janson",
                  "properties":[
@@ -531,9 +520,9 @@
                  "rotation":0,
                  "type":"website",
                  "visible":true,
-                 "width":0,
-                 "x":1239.39393939394,
-                 "y":1527.27272727273
+                 "width":466,
+                 "x":821.393939393939,
+                 "y":1223.27272727273
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -621,7 +610,7 @@
          "y":0
         }],
  "nextlayerid":42,
- "nextobjectid":24,
+ "nextobjectid":25,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
