@@ -583,17 +583,6 @@
                  "width":604,
                  "x":41.3636363636364,
                  "y":1113.36363636364
-                }, 
-                {
-                 "height":356,
-                 "id":19,
-                 "name":"janson",
-                 "rotation":0,
-                 "type":"website",
-                 "visible":true,
-                 "width":400,
-                 "x":934,
-                 "y":1064
                 }],
          "offsetx":10,
          "offsety":2,
@@ -604,7 +593,7 @@
          "y":0
         }],
  "nextlayerid":42,
- "nextobjectid":20,
+ "nextobjectid":22,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
