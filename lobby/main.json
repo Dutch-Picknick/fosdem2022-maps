@@ -511,8 +511,14 @@
                  "height":258,
                  "id":12,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"M.misc.htm"
+                        }],
                  "rotation":0,
-                 "type":"",
+                 "type":"website",
                  "visible":true,
                  "width":438,
                  "x":3238,
