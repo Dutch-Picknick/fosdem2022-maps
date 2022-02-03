@@ -218,11 +218,6 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":""
-                        }, 
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
                          "value":"https:\/\/fosdem.org\/2022\/schedule\/rooms\/"
                         }],
                  "type":"tilelayer",
