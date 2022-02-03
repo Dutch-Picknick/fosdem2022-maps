@@ -10,26 +10,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.1/Youtube.min.js"></script>
     <script>
         var video_streams = [
-        {
-            src: 'https://stream.fosdem.org/mcommunity.m3u8',
-            type: 'application/x-mpegURL'
-        },
-        {
-            src: 'https://stream.fosdem.org/mmisc.m3u8',
-            type: 'application/x-mpegURL'
-        },
-        {
-            src: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
-            type: 'video/youtube'
-        }
-
+            {
+                src: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
+                type: 'video/youtube'
+            },
+            {
+                src: 'https://stream.fosdem.org/mcommunity.m3u8',
+                type: 'application/x-mpegURL'
+            },
+            {
+                src: 'https://stream.fosdem.org/mmisc.m3u8',
+                type: 'application/x-mpegURL'
+            },
+            {   
+                type: 'application/x-mpegURL',
+                src: 'https://stream.fosdem.org/mtest.m3u8',
+            },
+            {
+                src: 'https://stream.fosdem.org/mrtc.m3u8',
+                type: 'application/x-mpegURL',
+            }
         ];
-  </script>
+        
+ </script>
   </head>
   <body>
-    <button onclick="changeVid(0)">M.community</button>
-    <button onclick="changeVid(1)">M.misc</button>
-    <button onclick="changeVid(2)">play me</button>
+    <button onclick="changeVid(0)">Start</button>
+    <button onclick="changeVid(1)">M.community</button>
+    <button onclick="changeVid(2)">M.misc</button>
+    <button onclick="changeVid(3)">M.test</button>
+    <button onclick="changeVid(4)">M.rtc</button>
+    
     <video 
         id="fosdemvideo" 
         class="video-js vjs-default-skin"
