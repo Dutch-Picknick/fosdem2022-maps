@@ -219,6 +219,16 @@
                          "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/fosdem.org\/2022\/schedule\/rooms\/"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Open fosdem page in new tab ?"
                         }],
                  "type":"tilelayer",
                  "visible":true,
