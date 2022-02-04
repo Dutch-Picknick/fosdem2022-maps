@@ -1,4 +1,4 @@
-#de Ontmoeting
+# De Ontmoeting
 
 De plek om elkaar te ontmoeten tijdens het FOSDEM 2022 event. Hoe kan je de map aanpassen / uitbreiden verder maken.
 
