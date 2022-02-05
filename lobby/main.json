@@ -807,7 +807,7 @@
          "name":"Janson-podium",
          "objects":[
                 {
-                 "height":311.666666666667,
+                 "height":341.666666666667,
                  "id":23,
                  "name":"janson",
                  "properties":[
@@ -821,9 +821,9 @@
                  "visible":true,
                  "width":488.333333333333,
                  "x":3234.06060606061,
-                 "y":144.272727272727
+                 "y":114.272727272727
                 }],
-         "offsetx":4,
+         "offsetx":3,
          "offsety":-12,
          "opacity":1,
          "type":"objectgroup",
@@ -1132,28 +1132,6 @@
                  "width":163,
                  "x":1951,
                  "y":1409
-                }, 
-                {
-                 "height":458,
-                 "id":39,
-                 "name":"janson",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":5
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":513,
-                 "x":3231.5,
-                 "y":128.5
                 }],
          "opacity":1,
          "type":"objectgroup",
