@@ -326,16 +326,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"dp-non-tech-d9bee4e6-4ff2-4878-8bf1-95636e83f2c4"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Hit a space to enter"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -354,16 +344,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"dp-spaces-0747d5e6-25d9-4cff-b733-c41cecbb3ac7"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Hit a space to enter"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -382,16 +362,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"dp-projects"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Hit a space to enter"
                         }],
                  "type":"tilelayer",
                  "visible":true,
