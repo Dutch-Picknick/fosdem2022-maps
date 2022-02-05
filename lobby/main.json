@@ -388,7 +388,7 @@
          "name":"rooms",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -423,7 +423,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -435,7 +435,7 @@
          "name":"grass",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -447,7 +447,7 @@
          "name":"water",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -459,7 +459,7 @@
          "name":"op water",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -471,7 +471,7 @@
          "name":"boven op water",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -682,7 +682,7 @@
          "name":"tables",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -693,7 +693,7 @@
          "name":"roads and floors",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -705,7 +705,7 @@
          "name":"fosdemlogo",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -723,7 +723,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -735,7 +735,7 @@
          "name":"doorways",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -747,7 +747,7 @@
          "name":"furniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -759,7 +759,7 @@
          "name":"items",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -771,7 +771,7 @@
          "name":"items2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -783,7 +783,7 @@
          "name":"podium",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -795,7 +795,7 @@
          "name":"op podium",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -807,7 +807,7 @@
          "name":"op grass",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":132,
          "x":0,
          "y":0
@@ -819,7 +819,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -849,7 +849,7 @@
          "offsety":-12,
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1157,7 +1157,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1192,7 +1192,7 @@
          "offsety":2,
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],
