@@ -150,17 +150,17 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":" openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
                          "name":"openTab",
                          "type":"string",
                          "value":"https:\/\/mch2022.org\/#\/"
                         }, 
                         {
-                         "name":"openWebsiteTriggerMessage",
+                         "name":"openTabTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openTabTriggerMessage",
                          "type":"string",
                          "value":"Press space to open MCH2022"
                         }],
