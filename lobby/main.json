@@ -295,16 +295,6 @@
                          "value":"dp-retroroom-f5b1d257-58b9-4095-9be2-35aac2f073aa"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Press a space to enter"
-                        }, 
-                        {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/fosdem.org\/2022\/schedule\/track\/retrocomputing\/"
