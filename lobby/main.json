@@ -410,16 +410,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"dp-janson-praathoek-bffa947f-078d-471d-82a1-e638ba2037ae"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Hit a space to enter"
                         }],
                  "type":"tilelayer",
                  "visible":true,
