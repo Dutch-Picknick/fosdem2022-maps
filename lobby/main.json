@@ -155,14 +155,14 @@
                          "value":"https:\/\/mch2022.org\/#\/"
                         }, 
                         {
-                         "name":"openTabTrigger",
+                         "name":"openWebsiteTrigger",
                          "type":"string",
                          "value":"onaction"
                         }, 
                         {
-                         "name":"openTabTriggerMessage",
+                         "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Press space to open MCH2022"
+                         "value":"Press SPACE  to open MCH2022"
                         }],
                  "type":"tilelayer",
                  "visible":true,
