@@ -87,16 +87,6 @@
                          "value":"b3bcb159-aa3b-4a9b-b97d-5ca46e847aa4"
                         }, 
                         {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"press space to enter the DEV room"
-                        }, 
-                        {
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/cryptpad.fr\/code\/#\/2\/code\/edit\/v42OLX+4qHzwHie+fDOC7EaQ\/"
