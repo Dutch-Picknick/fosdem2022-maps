@@ -11,25 +11,76 @@
     <script>
         var video_streams = [
         {
-            src: 'https://stream.fosdem.org/mcommunity.m3u8',
+            src: 'https://stream.fosdem.org/kfosdem.m3u8',
             type: 'application/x-mpegURL'
         },
         {
-            src: 'https://stream.fosdem.org/mmisc.m3u8',
+            src: 'https://stream.fosdem.org/dinfra.m3u8',
             type: 'application/x-mpegURL'
         },
         {
-            src: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
-            type: 'video/youtube'
+            src: 'https://stream.fosdem.org/dresearch.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/dretro.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/dtesting.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/dvirtualization.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/dweb3.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/ddesign.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/djavascript.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/dgo.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/dmicrokernel.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/dhpc.m3u8',
+            type: 'application/x-mpegURL'
+        },
+        {
+            src: 'https://stream.fosdem.org/dcollab.m3u8',
+            type: 'application/x-mpegURL'
         }
-
         ];
   </script>
   </head>
   <body>
-    <button onclick="changeVid(0)">M.community</button>
-    <button onclick="changeVid(1)">M.misc</button>
-    <button onclick="changeVid(2)">play me</button>
+    <button onclick="changeVid(0)">K.fosdem</button>
+    <button onclick="changeVid(1)">D.Infra</button>
+    <button onclick="changeVid(2)">D.research</button>
+    <button onclick="changeVid(3)">D.retro</button>
+    <button onclick="changeVid(4)">D.testing</button>
+    <button onclick="changeVid(5)">D.virtualization</button>
+    <button onclick="changeVid(6)">D.web3</button>
+    <button onclick="changeVid(7)">D.design</button>
+    <button onclick="changeVid(8)">D.javascript</button>
+    <button onclick="changeVid(9)">D.go</button>
+    <button onclick="changeVid(10)">D.microkernel</button>
+    <button onclick="changeVid(11)">D.hpc</button>
+    <button onclick="changeVid(12)">D.collab</button>
+
+
     <video 
         id="fosdemvideo" 
         class="video-js vjs-default-skin"
