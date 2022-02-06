@@ -190,7 +190,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Press SPACE  to open CHEMNITZ LINUX DAYS"
+                         "value":"Press SPACE  to visit Apache Software Foundation"
                         }],
                  "type":"tilelayer",
                  "visible":true,
